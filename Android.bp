@@ -1,3 +1,6 @@
+soong_namespace {
+}
+
 package {
     default_applicable_licenses: ["vendor_nxp_nfc_license"],
 }
