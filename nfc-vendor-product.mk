@@ -4,11 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-ifeq (,$(wildcard vendor/nxp/opensource))
-PRODUCT_SOONG_NAMESPACES += \
-    vendor/nxp/nfc/extns/intf/nxpnfclegacy
-endif
-
 NXP_NFC_HARDWARE := PN81T
 NXP_VENDOR_PATH := vendor/nxp
 
